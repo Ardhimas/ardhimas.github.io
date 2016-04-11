@@ -248,7 +248,7 @@ header .header-content .header-content-inner p {
     max-width: 400px;
 }
 
-@media(min-width:992px) {
+@media(min-width:768px) {
     .service-box {
         margin: 20px auto 0;
     }
@@ -473,4 +473,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.bio-info {
+    text-align: left;
 }

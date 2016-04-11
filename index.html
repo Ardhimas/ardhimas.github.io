@@ -60,7 +60,10 @@
                         <a class="page-scroll" href="#timeline">Timeline</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#interests">Interests</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Projects</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -76,8 +79,8 @@
         <div class="header-content">
             <div class="header-content-inner">
                 <h1>Hello, my name is <br>
-                Ardhimas Fathurrahman Kamdani <br>
-                but you can call me Ardy for short
+                <strong>Ardhimas Fathurrahman Kamdani</strong><br>
+                but you can call me <strong>Ardy</strong>
                 </h1>
                 <hr>
                 <p>Because when you have a name as long as mine, you get tired of having to repeat yourself. Anyways, what would you like to do?</p>
@@ -90,23 +93,39 @@
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 bio-info">
-                    <h2 class="section-heading">A little about me</h2>
+                <div class="col-sm-12 text-center">
+                    <h2 class="section-heading text-center">A little bit <b>about</b> me<br>
+                      <small>(fun facts)</small>
+                    </h2>
                     <hr class="light">
-                    <p class="text-faded">
-                        <li>I recently graduated with a B.S. in Computer Science from The University of Texas at Austin.</li>
-                        <li>I am Indonesian.</li>
-                        <li>I love eating rice.</li>
-                    </p>
-                    <!--<a href="#" class="btn btn-default btn-xl">Get Started!</a>-->
                 </div>
             </div>
+                <div class="col-sm-8 bio-info">
+                    <p class="text-faded">
+                        I graduated with a B.S. in Computer Science from The University of Texas at Austin.<br>
+                        I am Indonesian by blood and American by law.<br>
+                        I love eating rice.<br>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                  <img class="img-circle" src="img/face.jpg">
+                </div>
+                    <!--<a href="#" class="btn btn-default btn-xl">Get Started!</a>-->
+                
         </div>
     </section>
     
     <section class="bg-dark" id="timeline">
         <div class="container">
-          <h2 class="section-heading text-center">A short timeline of my life</h2>
+          <!--<div class="col-lg-8 col-lg-offset-2 text-center">-->
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2 class="section-heading">A brief <b>timeline</b> of my life<br>
+              <small>(so far)</small>
+              </h2>
+            </div>
+            <hr>
+          </div>
           <ul class="timeline">
             <li>
               <div class="timeline-badge success"><i class="fa fa-child"></i></div>
@@ -121,7 +140,7 @@
               </div>
             </li>
             <li class="timeline-inverted">
-              <div class="timeline-badge warning"><i class="fa fa-car"></i></div>
+              <div class="timeline-badge info"><i class="fa fa-car"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">I moved to Ottawa, Canada.</h4>
@@ -133,7 +152,7 @@
               </div>
             </li>
             <li>
-              <div class="timeline-badge danger"><i class="fa fa-plane"></i></div>
+              <div class="timeline-badge warning"><i class="fa fa-plane"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">I moved to Jakarta, Indonesia.</h4>
@@ -157,7 +176,7 @@
               </div>
             </li>
             <li>
-              <div class="timeline-badge info"><i class="fa fa-envelope"></i></div>
+              <div class="timeline-badge college"><i class="fa fa-envelope"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">I was accepted to UT Austin.</h4>
@@ -195,7 +214,7 @@
               </div>
             </li>
             <li>
-              <div class="timeline-badge warning"><i class="fa fa-plane"></i></div>
+              <div class="timeline-badge info"><i class="fa fa-plane"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">I moved to Austin, Texas.</h4>
@@ -207,7 +226,7 @@
               </div>
             </li>
             <li class="timeline-inverted">
-              <div class="timeline-badge warning"><i class="fa fa-university"></i></div>
+              <div class="timeline-badge college"><i class="fa fa-university"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">I began college as a Mechanical Engineering major.</h4>
@@ -232,6 +251,19 @@
               </div>
             </li>
             <li class="timeline-inverted">
+              <div class="timeline-badge college"><i class="fa fa-trophy"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">I was part of the winning team of Bloomberg Code B.</h4>
+                  <p><small class="text-muted"><i class="fa fa-calendar"></i> January 2015</small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>I collaborated with two other students in an algorithmic trading hackathon hosted by Bloomberg. Our team led in the beginning, and then we were losing for the next 
+                  12 hours until we took a surprise victory and doubled what was then the high score. It is through this competition that I won the Chromebook that I used to build this website.</p>
+                </div>
+              </div>
+            </li>
+            <li>
               <div class="timeline-badge info"><i class="fa fa-line-chart"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -239,7 +271,20 @@
                   <p><small class="text-muted"><i class="fa fa-calendar"></i> Spring - Summer 2015</small></p>
                 </div>
                 <div class="timeline-body">
-                  <p>MetaTrader 4</p>
+                  <p>After Bloomberg opened my eyes to the world of algorithmic trading, I spent several months working with a successful day trader to implement his strategy into an algorithmic trading program in MQL4 to use with the FXCM MetaTrader 
+                  4 forex trading platform. Despite promising results, the project was suspended due to a lack of funds for investment.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge college"><i class="fa fa-graduation-cap"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">I became a freshman in real life.</h4>
+                  <p><small class="text-muted"><i class="fa fa-calendar"></i> December 2015</small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>After 4.5 years in college - of which 2.5 years was in CS - I now have a Bachelor of Science degree in Computer Science. Yay.</p>
                 </div>
               </div>
             </li>
@@ -247,11 +292,11 @@
         </div>
     </section>
 
-    <section id="services">
+    <section id="interests">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">What I like to do</h2>
+                    <h2 class="section-heading">Things that <b>interest</b> me</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -267,22 +312,29 @@
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-car wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Drive my Car</h3>
+                        <i class="fa fa-4x fa-eye wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>Web Design</h3>
+                        <p class="text-muted">Nothing makes my breathing intensify harder than a beautifully crafted responsive webpage.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-car wow bounceIn text-primary" data-wow-delay=".4s"></i>
+                        <h3>Cars</h3>
                         <p class="text-muted">My 1991 Mazda Miata may look like a retired old vet, but I love her like a baby.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-motorcycle wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Ride my Motorcycle</h3>
+                        <i class="fa fa-4x fa-motorcycle wow bounceIn text-primary" data-wow-delay=".6s"></i>
+                        <h3>Motorcycles</h3>
                         <p class="text-muted">I have a 1999 Suzuki SV650 that I love to ride and take apart. Sadly, it is curently out of commission :(</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-wikipedia-w wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Read Wikipedia</h3>
+                        <i class="fa fa-4x fa-wikipedia-w wow bounceIn text-primary" data-wow-delay=".8s"></i>
+                        <h3>Wikipedia</h3>
                         <p class="text-muted">The only website I frequent more than StackOverflow is Wikipedia. My girlfriend complains about it sometimes. I don't really mind.</p>
                     </div>
                 </div>
@@ -290,19 +342,28 @@
         </div>
     </section>
 
-    <section class="no-padding" id="portfolio">
+    <section class="bg-dark" id="portfolio">
+      <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Some of my <b>projects</b></h2>
+                    <hr>
+                    <!--<hr class="primary">-->
+                </div>
+            </div>
+        </div>
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
                     <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                        <img src="img/screenshot_cma.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    I'll put my projects here soon...
+                                    Web Application
                                 </div>
                                 <div class="project-name">
-                                    I promise!
+                                    Craigslist Market Analyzer
                                 </div>
                             </div>
                         </div>
@@ -310,14 +371,14 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+                        <img src="img/screenshot_hrd.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    I'll put my projects here soon...
+                                    Chrome Extension
                                 </div>
                                 <div class="project-name">
-                                    I promise!
+                                    Hot Rate Detective
                                 </div>
                             </div>
                         </div>
@@ -396,14 +457,14 @@
     <!--    </div>-->
     <!--</aside>-->
 
-    <section id="contact">
+    <section id="contact" class="bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
+                    <h2 class="section-heading">Would you like to <b>contact</b> me?</h2>
+                    <hr class="light">
                     <p>Ready to get to know me a little better? Sounds awesome! Shoot me a text or an email and I'll get back to you as soon as I can!</p>
-                    <p>(you can also call me but I'm notorious for not answering my phone as I'm too busy coding/driving/riding)</p>
+                    <small>(you can also call me but I'm notorious for not answering my phone as I'm too busy coding/driving/riding)</small>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
